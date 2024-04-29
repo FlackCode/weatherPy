@@ -1,5 +1,5 @@
 import requests
-
+# just logic version
 def fetchData(cityName):
     url = f"https://api.weatherapi.com/v1/current.json?key=8da9dc3302d94e8b915162620242904&q={cityName}&aqi=no"
     response = requests.get(url)
